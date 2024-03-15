@@ -1,0 +1,101 @@
+{
+    "foods": [
+      {
+        "id": 1,
+        "name": "Beef stake",
+        "description": " This beef steak is a quick and easy Filipino dish with meat marinated in lemon juice and soy sauce, pan-fried, and served with fried onion ",
+        "image": "https://i.ibb.co/877BZgW/istockphoto-1371751060-612x612.jpg",
+        "ingredients": [
+          "Beef",
+          "Tomato Sauce",
+          "lemon",
+          "Garlic",
+          "Olive Oil",
+          "Salt"
+        ],
+        "time": "25 minutes",
+        "calories": 300
+      },
+      {
+        "id": 2,
+        "name": "Red Rice",
+        "description": "Red rice is a variety of rice that is colored red by its anthocyanin content. It is usually eaten unpolished or partially polished",
+        "image": "https://i.ibb.co/h9h90s6/P1070981.jpg",
+        "ingredients": [
+          "red rice",
+          "salt",
+          "oil",
+          "water",
+          "tasty salt",
+          "lemon"
+        ],
+        "time": "30 minutes",
+        "calories": 450
+      },
+      {
+        "id": 3,
+        "name": " Salad",
+        "description": "A classic salad made with romaine lettuce, Caesar dressing, croutons, and Parmesan cheese.",
+        "image": "https://i.ibb.co/c81y436/Epic-summer-salad-hub-2646e6e.jpg",
+        "ingredients": [
+          "Romaine Lettuce",
+          "Caesar Dressing",
+          "Croutons",
+          "Parmesan Cheese",
+          "Lemon Juice",
+          "Worcestershire Sauce"
+        ],
+        "time": "15 minutes",
+        "calories": 250
+      },
+      {
+        "id": 4,
+        "name": "chicken",
+        "description": "Chicken fry - A dry chicken recipe popular around India and other parts of the world. This easy chicken fry has Indian spices.",
+        "image": "https://i.ibb.co/CbGWKvr/l-intro-1642005487.jpg",
+        "ingredients": [
+          "Ground chicken",
+          "Taco Shells",
+          "Lettuce",
+          "Tomato",
+          "Cheddar Cheese",
+          "Taco Seasoning"
+        ],
+        "time": "20 minutes",
+        "calories": 350
+      },
+      {
+        "id": 5,
+        "name": "Vegetable Curry",
+        "description": "A flavorful curry made with assorted vegetables and aromatic spices, served with rice.",
+        "image": "https://i.ibb.co/N1c4H0K/vegetablecurry-80763-16x9.jpg",
+        "ingredients": [
+          "Assorted Vegetables (e.g., potatoes, carrots, peas)",
+          "Coconut Milk",
+          "Curry Powder",
+          "Onion",
+          "Garlic",
+          "Ginger"
+        ],
+        "time": "40 minutes",
+        "calories": 280
+      },
+      {
+        "id": 6,
+        "name": "Grilled Salmon",
+        "description": "Juicy salmon fillets marinated in a zesty lemon and herb mixture, grilled to perfection.",
+        "image": "https://i.ibb.co/hMt9vy0/how-to-grill-salmon-2216658-hero-01-a9c948f8a238400ebaafc0caf509c7fa.jpg",
+        "ingredients": [
+          "Salmon Fillets",
+          "Lemon",
+          "Garlic",
+          "Fresh Herbs (e.g., parsley, dill)",
+          "Olive Oil",
+          "Salt"
+        ],
+        "time": "15 minutes",
+        "calories": 320
+      }
+    ]
+  }
+  
