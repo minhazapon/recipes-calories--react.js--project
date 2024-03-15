@@ -5,7 +5,7 @@ import Items from "./Items";
 
 
 
-const Food = () => {
+const Food = ({handleKhabar}) => {
     
      const [food, setFood] = useState([])
 
@@ -36,7 +36,11 @@ const Food = () => {
 
            {
 
-             food.map(food => <Items key={food.id} food={food}  >  </Items>  )
+             food.map(food => <Items key={food.id} food={food}
+                
+                handleKhabar={handleKhabar}
+                
+                >  </Items>  )
 
 
 

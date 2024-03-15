@@ -3,7 +3,7 @@
 
 
 
-const Items = ({food}) => {
+const Items = ({food, handleKhabar}) => {
 
     const {name, description, image, ingredients, time, calories} = food
 
@@ -44,7 +44,7 @@ const Items = ({food}) => {
                </div>
 
              <div className="card-actions">
-               <button className="btn btn-primary mt-4 w-[300px] text-xl">Want to cook</button>
+               <button onClick={() =>  handleKhabar(food)} className="btn btn-primary mt-4 w-[300px] text-xl">Want to cook</button>
              </div>
            </div>
            </div>
