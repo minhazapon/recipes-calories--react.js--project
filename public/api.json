@@ -1,10 +1,10 @@
-{
-    "foods": [
-      {
+[
+    {
         "id": 1,
         "name": "Beef stake",
         "description": " This beef steak is a quick and easy Filipino dish with meat marinated in lemon juice and soy sauce, pan-fried, and served with fried onion ",
         "image": "https://i.ibb.co/877BZgW/istockphoto-1371751060-612x612.jpg",
+        
         "ingredients": [
           "Beef",
           "Tomato Sauce",
@@ -15,8 +15,8 @@
         ],
         "time": "25 minutes",
         "calories": 300
-      },
-      {
+    },
+    {
         "id": 2,
         "name": "Red Rice",
         "description": "Red rice is a variety of rice that is colored red by its anthocyanin content. It is usually eaten unpolished or partially polished",
@@ -31,8 +31,8 @@
         ],
         "time": "30 minutes",
         "calories": 450
-      },
-      {
+    },
+    {
         "id": 3,
         "name": " Salad",
         "description": "A classic salad made with romaine lettuce, Caesar dressing, croutons, and Parmesan cheese.",
@@ -47,8 +47,8 @@
         ],
         "time": "15 minutes",
         "calories": 250
-      },
-      {
+    },
+    {
         "id": 4,
         "name": "chicken",
         "description": "Chicken fry - A dry chicken recipe popular around India and other parts of the world. This easy chicken fry has Indian spices.",
@@ -63,8 +63,8 @@
         ],
         "time": "20 minutes",
         "calories": 350
-      },
-      {
+    },
+    {
         "id": 5,
         "name": "Vegetable Curry",
         "description": "A flavorful curry made with assorted vegetables and aromatic spices, served with rice.",
@@ -79,8 +79,8 @@
         ],
         "time": "40 minutes",
         "calories": 280
-      },
-      {
+    },
+    {
         "id": 6,
         "name": "Grilled Salmon",
         "description": "Juicy salmon fillets marinated in a zesty lemon and herb mixture, grilled to perfection.",
@@ -95,7 +95,5 @@
         ],
         "time": "15 minutes",
         "calories": 320
-      }
-    ]
-  }
-  
+    }
+  ]
