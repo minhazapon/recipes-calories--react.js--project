@@ -4,12 +4,7 @@
      
       const Items = ({food, handleKhabar}) => {
       
-        // const handleToast = (food) => {
-      
-        //   toast('food is ready', food)
-      
-      
-        //  }
+       
 
 
 

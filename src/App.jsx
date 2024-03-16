@@ -6,6 +6,7 @@ import Header from './Header'
 import Show from './Show'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import Banner from './Banner'
 
 
 
@@ -42,7 +43,7 @@ function App() {
     <>
       
     <Header></Header>
-
+    <Banner></Banner>
      <div className=' flex  gap-16 justify-center'> 
     <Food handleKhabar={handleKhabar}  ></Food>
     <Show khabar={khabar} ></Show>
