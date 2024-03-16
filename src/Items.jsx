@@ -9,7 +9,7 @@ const Items = ({food, handleKhabar}) => {
 
      const handleToast = () => {
 
-      toast('food had ready')
+      toast('food is ready')
 
 
      }
@@ -32,10 +32,24 @@ const Items = ({food, handleKhabar}) => {
            <div className="card-body items-center text-center">
              <h2 className="card-title"> {name} </h2>
              <p className=" text-xl text-slate-400"> {description} </p>
-             <p className=" font-bold"> <span className=" text-xl">ingredients: 6 </span><br></br>
+             {/* <p className=" font-bold"> <span className=" text-xl">ingredients: 6 </span><br></br>
                <span className=" flex gap-2">{ingredients}</span>
-                 </p>
+                 </p> */}
                
+                 <div className=' text-left text-slate-400'>
+                   <p className=' text-xl font-bold text-left'> ingredients: {ingredients.length}   </p>
+
+                   {
+
+                    ingredients.map(  (Items, idx) => <li key={idx} >  {Items} </li> )
+
+                   }
+
+
+
+                 </div>
+
+
                <div className=" flex gap-32 mt-4">
                      
                      <h1 className=" flex  gap-2 text-slate-400 font-bold"> 
