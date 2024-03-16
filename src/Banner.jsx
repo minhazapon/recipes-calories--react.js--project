@@ -1,6 +1,5 @@
 
 
-import '../public/images/c2.jpg'
 
 
 
@@ -11,7 +10,7 @@ const Banner = () => {
 
               <div className=' ml-10 mr-10 mt-10'>
 
-              <div className="hero min-h-screen" style={{backgroundImage: 'url(public/images/c2.jpg)'}}>
+              <div className="hero min-h-screen" style={{backgroundImage: 'url(https://i.ibb.co/WWgDDYj/c2.jpg)'}}>
                 <div className="hero-overlay bg-opacity-60"></div>
                 <div className="hero-content text-center text-neutral-content">
                   <div className="">
