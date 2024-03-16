@@ -9,7 +9,7 @@ const Cook = ({khabar}) => {
     return (
         <div>
 
-               <div className=" flex gap-16 text-xl text-slate-400 items-center ">
+               <div className=" flex gap-16 text-xl text-slate-400 items-center bg-slate-200 mt-3 p-2 rounded-xl">
 
                 <h1> {name}  </h1>
                 <h1> {time} </h1>

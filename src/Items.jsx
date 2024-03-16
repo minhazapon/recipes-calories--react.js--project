@@ -1,18 +1,15 @@
 
 
-import { ToastContainer, toast } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
 
-
-
-const Items = ({food, handleKhabar}) => {
-
-     const handleToast = () => {
-
-      toast('food is ready')
-
-
-     }
+     
+      const Items = ({food, handleKhabar}) => {
+      
+        // const handleToast = (food) => {
+      
+        //   toast('food is ready', food)
+      
+      
+        //  }
 
 
 
@@ -32,12 +29,10 @@ const Items = ({food, handleKhabar}) => {
            <div className="card-body items-center text-center">
              <h2 className="card-title"> {name} </h2>
              <p className=" text-xl text-slate-400"> {description} </p>
-             {/* <p className=" font-bold"> <span className=" text-xl">ingredients: 6 </span><br></br>
-               <span className=" flex gap-2">{ingredients}</span>
-                 </p> */}
+        
                
                  <div className=' text-left text-slate-400'>
-                   <p className=' text-xl font-bold text-left'> ingredients: {ingredients.length}   </p>
+                   <p className=' text-xl font-bold text-left text-black'> ingredients: {ingredients.length}   </p>
 
                    {
 
@@ -69,28 +64,16 @@ const Items = ({food, handleKhabar}) => {
                </div>
 
              <div className="card-actions">
-               <button onClickCapture={handleToast} onClick={() =>  handleKhabar(food)} className="btn btn-primary mt-4 w-[300px] text-xl">Want to cook</button>
-               <ToastContainer />
+               <button  onClick={() =>  handleKhabar(food)} className="btn btn-primary mt-4 w-[300px] text-xl">Want to cook</button>
+              
              </div>
            </div>
            </div>
-
-              
-
-
-
-
-
-
-
-
-
-
+       
 
            </div>
-
-
-            
+           
+     
         </div>
     );
 };

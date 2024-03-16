@@ -4,6 +4,15 @@ import './App.css'
 import Food from './Food'
 import Header from './Header'
 import Show from './Show'
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
+
+
+
+
+
+
 
 function App() {
 
@@ -17,8 +26,13 @@ function App() {
 
      setKhabar(newKhabar)
 
+    toast('food is ready')
+
 
    }
+
+
+  
 
 
 
@@ -33,8 +47,12 @@ function App() {
     <Food handleKhabar={handleKhabar}  ></Food>
     <Show khabar={khabar} ></Show>
     </div>
-     
-   
+
+    <ToastContainer></ToastContainer>
+        
+    
+
+  
     </>
   )
 }
