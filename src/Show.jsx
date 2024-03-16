@@ -35,7 +35,29 @@ const Show = ({khabar}) => {
 
 
               }
-      
+
+
+              <div className=" text-2xl font-bold  flex justify-center items-center mt-40">
+
+ 
+              <h1>Currently cooking: 0</h1>
+
+
+              
+
+              </div>
+                   
+
+
+              <div className=" flex justify-center items-center gap-20 mt-10">
+
+              <h1 className=" text-xl font-bold text-slate-400">Name</h1>
+              <h1  className=" text-xl font-bold text-slate-400">Time</h1>
+              <h1   className=" text-xl font-bold text-slate-400">Calories</h1>
+              
+              
+              </div>
+
 
             
         </div>
